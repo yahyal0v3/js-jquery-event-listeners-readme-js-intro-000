@@ -17,6 +17,14 @@ function submitIt() {
   })
 }
 
+function pressIt() {
+  $('body').on('keypress', function(key) {
+    if (key.which === 71) {
+      alert("'s was pressed'")
+    } 
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
@@ -24,6 +32,6 @@ $(document).ready(function(){
   frameIt()
   submitIt()
   pressIt()
-  
+
 
 });
