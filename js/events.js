@@ -21,7 +21,7 @@ function pressIt() {
   $('body').on('keypress', function(key) {
     if (key.which === 71) {
       alert("'s was pressed'")
-    } 
+    }
   })
 }
 
