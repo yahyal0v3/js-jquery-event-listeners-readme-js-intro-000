@@ -18,7 +18,7 @@ function submitIt() {
 }
 
 function pressIt() {
-  $('body').on('keypress', function(key) {
+  $('body').on('keydown', function(key) {
     if (key.which === 103) {
       alert("'g was pressed'")
     }
