@@ -22,7 +22,6 @@ function pressIt() {
     if (key.which === 103) {
       alert("'g was pressed'")
     }
-    console.log(key.which)
   })
 }
 
