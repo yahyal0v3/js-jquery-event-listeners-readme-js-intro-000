@@ -32,6 +32,4 @@ $(document).ready(function(){
   frameIt()
   submitIt()
   pressIt()
-
-
 });
